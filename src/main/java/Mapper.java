@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class MapperDemo {
+public class Mapper {
 
     private static List<Translation> mapNames(List<InternationalValues> values) {
         String name = values.stream().map(iv -> iv.getUk().getName()).distinct().collect(Collectors.joining(" "));
