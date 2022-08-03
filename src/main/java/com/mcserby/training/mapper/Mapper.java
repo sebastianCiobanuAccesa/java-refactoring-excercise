@@ -1,3 +1,5 @@
+package com.mcserby.training.mapper;
+
 import com.mcserby.training.refactoring.InternationalValues;
 import com.mcserby.training.refactoring.Locale;
 import com.mcserby.training.refactoring.Translation;
